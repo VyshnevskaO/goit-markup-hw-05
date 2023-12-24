@@ -631,6 +631,9 @@ color:#8e8f99;
 margin-bottom: 8px;
   
 }
+.form-wrapper.comment{
+    margin-bottom: 16px;
+}
 
 .form-wrapper.checkbox {
 margin-bottom: 24px;
