@@ -472,25 +472,27 @@
             <label
               class="subscribe-form-field"
               for="email-input"
-              name="email-input"></label>
-            <input
-              class="subscribe-form-input"
-              id="email-input"
-              type="email"
-              placeholder="E-mail" />
-            <button type="submit" class="subscribe-form-button">
-              Subscribe
-              <svg class="subscribe-form-icon" width="24" height="24">
-                <use href="./images/icons.svg#icon-plane"></use>
-              </svg>
-            </button>
+              name="email-input">
+              <input
+                class="subscribe-form-input"
+                name="email-input"
+                id="email-input"
+                type="email"
+                placeholder="E-mail" />
+              <button type="submit" class="subscribe-form-button">
+                Subscribe
+                <svg class="subscribe-form-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-plane"></use>
+                </svg>
+              </button>
+            </label>
           </form>
         </div>
       </div>
     </footer>
     <!-- Modal Window Section -->
 
-    <div class="backdrop is-open">
+    <div class="backdrop">
       <div class="modal">
         <button type="button" class="modal-btn" aria-label="Modal close button">
           <svg class="modal-icon-close" width="8" height="8">
@@ -503,7 +505,7 @@
         <form class="modal-form" name="modal">
           <div class="form-wrapper">
             <label class="form-label" for="user-name">Name</label>
-            <div class="name-input-field">
+            <div class="modale-input-field">
               <input
                 class="user-form-input"
                 id="user-name"
@@ -516,7 +518,7 @@
           </div>
           <div class="form-wrapper">
             <label class="form-label" for="user-phone">Phone</label>
-            <div class="phone-input-field">
+            <div class="modale-input-field">
               <input
                 class="user-form-input"
                 id="user-phone"
@@ -529,7 +531,7 @@
           </div>
           <div class="form-wrapper">
             <label class="form-label" for="user-email">Email</label>
-            <div class="email-input-field">
+            <div class="modale-input-field">
               <input
                 class="user-form-input"
                 id="user-email"
